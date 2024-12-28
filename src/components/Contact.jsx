@@ -112,8 +112,7 @@ const ContactSection = () => {
             <div className="bg-white p-8 rounded-lg shadow-xl">
               <div className="relative w-full h-64 bg-gray-300 rounded-lg overflow-hidden shadow-lg mb-6">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=YOUR_GOOGLE_MAP_EMBED_LINK"
-                  width="100%"
+                 src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3784.058850885525!2d74.28736497519068!3d18.48099328260493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTjCsDI4JzUxLjYiTiA3NMKwMTcnMjMuOCJF!5e0!3m2!1sen!2sin!4v1735374299326!5m2!1sen!2sin"         width="100%"
                   height="100%"
                   frameBorder="0"
                   style={{ border: 0 }}
@@ -122,22 +121,23 @@ const ContactSection = () => {
                   tabIndex="0"
                   title="Our Location"
                 ></iframe>
+              
               </div>
 
               <div className="space-y-4">
                 <h3 className="text-xl font-semibold text-gray-800 mb-4">Our Contact Details</h3>
                 <div className="flex items-center text-gray-700">
                   <span className="mr-2">📧</span>
-                  <a href="mailto:contact@krushiunnativilla.com" className="text-green-700 hover:underline">contact@krushiunnativilla.com</a>
+                  <a href="mailto:contact@krushiunnati.in" className="text-green-700 hover:underline">contact@krushiunnati.in</a>
                 </div>
                 <div className="flex items-center text-gray-700">
                   <span className="mr-2">📞</span>
-                  <a href="tel:+919378404040" className="text-green-700 hover:underline">+91 9378404040</a>
+                  <a href="tel:+9178228 27875" className="text-green-700 hover:underline">+91 78228 27875</a>
                 </div>
                 <div className="flex items-center text-gray-700">
                   <span className="mr-2">💬</span>
                   <a
-                    href="https://wa.me/919378404040"
+                    href="https://wa.me/9178228 27875"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-green-700 hover:underline"

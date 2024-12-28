@@ -11,13 +11,13 @@ const Footer = () => {
             href="/"
             className="text-4xl font-bold text-[#FFD700] tracking-widest uppercase hover:text-opacity-80 transition duration-500 ease-in-out"
           >
-            Krushi Unnati Villa
+            Krushi Unnati Farm
           </a>
           <div className="flex space-x-4 mt-4 lg:mt-0">
             {[
-              { icon: <FaFacebook />, url: "https://www.facebook.com/KrushiUnnatiVilla", label: "Facebook" },
+              { icon: <FaFacebook />, url: "https://www.facebook.com/profile.php?id=61570293950663&mibextid=ZbWKwL", label: "Facebook" },
               { icon: <FaTwitter />, url: "https://twitter.com/KrushiUnnatiVilla", label: "Twitter" },
-              { icon: <FaInstagram />, url: "https://www.instagram.com/KrushiUnnatiVilla", label: "Instagram" },
+              { icon: <FaInstagram />, url: "https://www.instagram.com/krushi_unnati_farm?igsh=Yjhxb29hdHh2dm5s", label: "Instagram" },
               { icon: <FaLinkedin />, url: "https://www.linkedin.com/company/KrushiUnnatiVilla", label: "LinkedIn" }
             ].map((social, index) => (
               <a

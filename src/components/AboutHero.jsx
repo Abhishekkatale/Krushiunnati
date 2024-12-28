@@ -26,7 +26,7 @@ const KrushiUnnatiVillaSection = () => {
       <div data-aos="fade-left" className="lg:w-1/2 w-full mt-12 lg:mt-0 lg:ml-12">
         {/* Tag */}
         <div className="bg-white text-green-600 font-bold px-4 py-1 inline-block rounded-full mb-4 shadow-lg transform transition hover:-translate-y-1">
-          About Krushi Unnati Villa
+          About Krushi Unnati Farm
         </div>
         {/* Title */}
         <h2 className="text-4xl font-bold mb-4">
@@ -34,7 +34,7 @@ const KrushiUnnatiVillaSection = () => {
         </h2>
         {/* Description */}
         <p className="mb-6">
-          Nestled in the lush greenery, Krushi Unnati Villa offers a perfect retreat for family vacations, weddings, corporate events, and celebrations. Our villa is designed to provide tranquility, luxury, and an unforgettable experience for you and your guests.
+          Nestled in the lush greenery, Krushi Unnati Farm offers a perfect retreat for family vacations, weddings, corporate events, and celebrations. Our villa is designed to provide tranquility, luxury, and an unforgettable experience for you and your guests.
         </p>
 
         {/* Features List */}
@@ -67,7 +67,7 @@ const KrushiUnnatiVillaSection = () => {
 
         {/* Testimonial with Opacity Effect */}
         <blockquote className="border-l-4 border-green-600 pl-4 italic mb-6">
-          "Krushi Unnati Villa made our family reunion a magical experience. The setting was perfect and the service outstanding!"
+          "Krushi Unnati Farm made our family reunion a magical experience. The setting was perfect and the service outstanding!"
         </blockquote>
 
         {/* Button with Hover Effect */}

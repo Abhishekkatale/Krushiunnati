@@ -58,7 +58,7 @@ const PhotoGallery = () => {
       <div className="container mx-auto px-6 lg:px-24">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-extrabold text-yellow-400">Our Photo Gallery</h2>
-          <p className="text-lg text-gray-400 mt-4">Explore the elegance of Krushi Unnati Villa through these photos</p>
+          <p className="text-lg text-gray-400 mt-4">Explore the elegance of Krushi Unnati Farm through these photos</p>
         </div>
 
         {/* Scrollable Gallery (Carousel) */}

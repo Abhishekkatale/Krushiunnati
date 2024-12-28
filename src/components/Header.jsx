@@ -1,9 +1,8 @@
-// components/Navbar.js
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { FaBars, FaTimes, FaHome, FaInfoCircle, FaImages, FaPhoneAlt, FaSwimmingPool } from 'react-icons/fa';
-import { GiFarmTractor, GiPlantRoots, GiCampfire, GiBasketballBasket } from 'react-icons/gi';
-import { Link } from 'react-router-dom';
+import { GiPlantRoots } from 'react-icons/gi';
+import { Link as ScrollLink } from 'react-scroll';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,20 +35,24 @@ const Navbar = () => {
         >
           {/* Links Array */}
           {[
-            { to: '/home', icon: <FaHome className="mr-2" />, text: 'Home' },
-            { to: '/about', icon: <FaInfoCircle className="mr-2" />, text: 'About Us' },
-            { to: '/amenities', icon: <FaSwimmingPool className="mr-2" />, text: 'Amenities' },
-            { to: '/gallery', icon: <FaImages className="mr-2" />, text: 'Gallery' },
-            { to: '/contact', icon: <FaPhoneAlt className="mr-2" />, text: 'Contact' },
+            { to: 'home', icon: <FaHome className="mr-2" />, text: 'Home' },
+            { to: 'about', icon: <FaInfoCircle className="mr-2" />, text: 'About Us' },
+            { to: 'amenities', icon: <FaSwimmingPool className="mr-2" />, text: 'Amenities' },
+            { to: 'gallery', icon: <FaImages className="mr-2" />, text: 'Gallery' },
+            { to: 'contact', icon: <FaPhoneAlt className="mr-2" />, text: 'Contact' },
           ].map((link, index) => (
             <li key={index} className="text-lg font-semibold">
-              <Link
+              <ScrollLink
                 to={link.to}
-                className="flex items-center justify-center lg:justify-start px-4 py-2 lg:px-0 lg:py-0 hover:text-yellow-300 transition-colors"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className="flex items-center justify-center lg:justify-start px-4 py-2 lg:px-0 lg:py-0 hover:text-yellow-300 transition-colors cursor-pointer"
                 onClick={() => setIsOpen(false)}
               >
                 {link.icon} {link.text}
-              </Link>
+              </ScrollLink>
             </li>
           ))}
         </ul>
