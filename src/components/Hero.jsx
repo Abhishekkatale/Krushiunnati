@@ -65,7 +65,7 @@ const Hero = () => {
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
           className="text-lg md:text-2xl mb-8 max-w-4xl mx-auto text-gray-300"
         >
-          Experience the epitome of luxury and tranquility at our exquisite villa, where nature meets elegance.
+          Experience the epitome of luxury and tranquility at our exquisite farm, where nature meets elegance.
         </motion.p>
 
         <motion.div
